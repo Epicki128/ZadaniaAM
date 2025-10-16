@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Gallery.MainPage">
+
+    <FlexLayout x:Name="main" Style="{DynamicResource bgGreen}" JustifyContent="SpaceBetween" Direction="Column">
+        <VerticalStackLayout>
+            <Label Style="{StaticResource header}" Text="Galeria"/>
+            <Image x:Name="imageCarousel" Source="kot1.jpg"/>
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween">
+                <Button Text="Prev" x:Name="prevBtn" Clicked="Carousel"/>
+                <Button Text="Next" x:Name="nextBtn" Clicked="Carousel"/>
+            </FlexLayout>
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween">
+                <Label Text="Który obraz wyświetlić?"/>
+                <Entry x:Name="imgIdEnt" Keyboard="Numeric" TextChanged="Entry"/>
+            </FlexLayout>
+            <FlexLayout Direction="Row" JustifyContent="SpaceBetween">
+                <Label Text="Tło niebieskie?"/>
+                <Switch x:Name="bgBlueSwt" Toggled="bgChange"/>
+            </FlexLayout>
+        </VerticalStackLayout>
+        <Label Style="{StaticResource footer}" Text="Autor: 00000000000"/>
+    </FlexLayout>
+
+
+
+</ContentPage>
