@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xaml-comp compile="true" ?>
+<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Style TargetType="ScrollView">
+        <Setter Property="BackgroundColor" Value="White"/>
+    </Style>
+
+    <Style TargetType="VerticalStackLayout">
+        <Setter Property="Margin" Value="20"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="Header">
+        <Setter Property="BackgroundColor" Value="#558b2f"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="FontSize" Value="Large"/>
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="TextColor" Value="Black"/>
+        <Setter Property="FontSize" Value="Default"/>
+    </Style>
+
+    <Style TargetType="Label" x:Key="Output">
+        <Setter Property="FontSize" Value="Medium"/>
+    </Style>
+
+    <Style TargetType="Slider">
+        <Setter Property="MaximumTrackColor" Value="Gray"/>
+        <Setter Property="MinimumTrackColor" Value="#558b2f"/>
+        <Setter Property="ThumbColor" Value="#558b2f"/>
+    </Style>
+
+    <Style TargetType="Button">
+        <Setter Property="BackgroundColor" Value="#558b2f"/>
+        <Setter Property="TextColor" Value="White"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    </Style>
+
+</ResourceDictionary>
