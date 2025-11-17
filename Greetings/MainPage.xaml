@@ -18,5 +18,4 @@
             <Button Text="&gt;&gt;" Clicked="BtnClicked"/>
         </VerticalStackLayout>
     </ScrollView>
-
 </ContentPage>

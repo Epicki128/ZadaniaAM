@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DiceRoll.MainPage">
+
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.ColumnSpan="5" BackgroundColor="Red">
+            <Label Style="{DynamicResource Title}" Text="Gra w kości. Autor:00000000000"/>
+        </Border>
+
+        <Button Text="Rzuć kośćmi"
+                Grid.Row="1"
+                Grid.Column="2"
+                Clicked="Roll"/>
+
+        <BoxView BackgroundColor="White"
+                 Grid.Row="2"
+                 Grid.ColumnSpan="5"/>
+        <Image x:Name="img1" 
+               Source="question.jpg"
+               Grid.Row="2"/>
+        <Image x:Name="img2"
+               Source="question.jpg"
+               Grid.Row="2"
+               Grid.Column="1"/>
+        <Image x:Name="img3"
+               Source="question.jpg"
+               Grid.Row="2"
+               Grid.Column="2"/>
+        <Image x:Name="img4"
+               Source="question.jpg"
+               Grid.Row="2"
+               Grid.Column="3"/>
+        <Image x:Name="img5"
+               Source="question.jpg"
+               Grid.Row="2"
+               Grid.Column="4"/>
+
+        <Label x:Name="lblCurrent"
+               Text="Wynik tego losowania: "
+               Grid.Row="3"
+               Grid.Column="2"
+               WidthRequest="170"/>
+
+        <Label x:Name="lblScore"
+               Text="Wynik gry: "
+               Grid.Row="4"
+               Grid.Column="2"
+               WidthRequest="100"/>
+
+        <Button Text="Resetuj wynik"
+                Grid.Row="5"
+                Grid.Column="2"
+                Clicked="Clear"/>
+
+    </Grid>
+
+</ContentPage>
