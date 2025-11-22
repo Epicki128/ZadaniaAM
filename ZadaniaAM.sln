@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greetings", "Greetings\Gree
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRoll", "DiceRoll\DiceRoll.csproj", "{5460E0A1-2C93-4546-AA53-3B058829FF8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{2EF058C1-6F1A-474D-84A3-5FFD82EB13DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{5460E0A1-2C93-4546-AA53-3B058829FF8E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{5460E0A1-2C93-4546-AA53-3B058829FF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5460E0A1-2C93-4546-AA53-3B058829FF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF058C1-6F1A-474D-84A3-5FFD82EB13DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF058C1-6F1A-474D-84A3-5FFD82EB13DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF058C1-6F1A-474D-84A3-5FFD82EB13DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF058C1-6F1A-474D-84A3-5FFD82EB13DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
