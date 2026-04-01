@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Dice.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout VerticalOptions="Center">
+            <HorizontalStackLayout HorizontalOptions="Center" HeightRequest="110">
+                <ImageButton x:Name="img0" Source="kosc0.png" WidthRequest="110" HeightRequest="110" Margin="10" Clicked="img_Clicked" />
+                <ImageButton x:Name="img1" Source="kosc0.png" WidthRequest="110" HeightRequest="110" Margin="10" Clicked="img_Clicked" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout HorizontalOptions="Center" HeightRequest="110">
+                <ImageButton x:Name="img2" Source="kosc0.png" WidthRequest="110" HeightRequest="110" Margin="10" Clicked="img_Clicked"/>
+                <ImageButton x:Name="img3" Source="kosc0.png" WidthRequest="110" HeightRequest="110" Margin="10" Clicked="img_Clicked"/>
+                <ImageButton x:Name="img4" Source="kosc0.png" WidthRequest="110" HeightRequest="110" Margin="10" Clicked="img_Clicked"/>
+            </HorizontalStackLayout>
+            <Button x:Name="buttonThrow" Clicked="buttonThrow_Clicked" Text="RZUT" WidthRequest="75" HeightRequest="30" BackgroundColor="#ED275021" Margin="10"/>
+            <Label x:Name="lblResult" Text="0" FontSize="40" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+  
