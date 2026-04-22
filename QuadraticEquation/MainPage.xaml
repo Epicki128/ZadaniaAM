@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuadraticEquation.MainPage">
+
+    <ScrollView>
+        <Grid ColumnDefinitions="*,200,*"
+              RowDefinitions="*,50,50,50,50,50,100,200,*"
+              ColumnSpacing="20"
+              RowSpacing="20">
+            <Entry x:Name="EntryX"
+           Placeholder="Podaj x"
+           Grid.Column="1"
+           Grid.Row="1"/>
+            <Entry x:Name="EntryA"
+           Placeholder="Podaj a"
+           Grid.Column="1"
+           Grid.Row="2"/>
+            <Entry x:Name="EntryB"
+           Placeholder="Podaj b"
+           Grid.Column="1"
+           Grid.Row="3"/>
+            <Entry x:Name="EntryC"
+           Placeholder="Podaj c"
+           Grid.Column="1"
+           Grid.Row="4"/>
+            <Button Text="Oblicz"
+            Clicked="Calculate"
+            Grid.Column="1"
+            Grid.Row="5"/>
+            <Label x:Name="LabelResult"
+           Text="y = ax² + bx + c"
+           HorizontalTextAlignment="Center"
+           Grid.Column="1"
+           Grid.Row="6"
+           Grid.RowSpan="2"/>
+
+            <GraphicsView x:Name="GraphicsViewGraph"
+                  Grid.Column="1"
+                  Grid.Row="7"/>
+
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
