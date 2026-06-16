@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman", "Hangman\Hangman.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.csproj", "{A02D0CD2-B6E0-42BB-9F83-34E7A2CCEA18}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{DC206F66-9D10-4EE9-B001-60FCE170E714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,8 +57,13 @@ Global
 		{E79D7126-DBE6-4BCE-AD5D-688F881019F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A02D0CD2-B6E0-42BB-9F83-34E7A2CCEA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A02D0CD2-B6E0-42BB-9F83-34E7A2CCEA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02D0CD2-B6E0-42BB-9F83-34E7A2CCEA18}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{A02D0CD2-B6E0-42BB-9F83-34E7A2CCEA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A02D0CD2-B6E0-42BB-9F83-34E7A2CCEA18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC206F66-9D10-4EE9-B001-60FCE170E714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC206F66-9D10-4EE9-B001-60FCE170E714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC206F66-9D10-4EE9-B001-60FCE170E714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC206F66-9D10-4EE9-B001-60FCE170E714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

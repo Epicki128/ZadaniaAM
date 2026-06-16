@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Które to schronisko?",
+        "imageSrc": "zad1.jpg",
+        "answerA": "Na Rysiance",
+        "answerB": "Na Wielkiej Raczy",
+        "answerC": "Na Wielkiej Rycerzowej",
+        "correctAnswer": "B"
+    },
+    {
+        "question": "Zwierzę na zdjęciu to",
+        "imageSrc": "zad2.jpg",
+        "answerA": "owczarek",
+        "answerB": "wilk",
+        "answerC": "kozica",
+        "correctAnswer": "A"
+    },
+    {
+        "question": "W oddali są widoczne",
+        "imageSrc": "zad3.jpg",
+        "answerA": "Himalaje",
+        "answerB": "Alpy",
+        "answerC": "Tatry",
+        "correctAnswer": "C"
+    }
+]

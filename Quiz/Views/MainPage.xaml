@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:Quiz.Models"
+             x:Class="Quiz.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            RadioButtonGroup.GroupName="Answers"
+    RadioButtonGroup.SelectedValue="{Binding SelectedAnswer, Mode=TwoWay}"
+            HorizontalOptions="Center">
+            <Image Source="{Binding ImageSrc}"/>
+            <Label Text="{Binding Question}"/>
+            <RadioButton Content="{Binding AnswerA}"
+                 Value="{x:Static models:Answer.A}" />
+            <RadioButton Content="{Binding AnswerB}"
+                 Value="{x:Static models:Answer.B}" />
+            <RadioButton Content="{Binding AnswerC}"
+                 Value="{x:Static models:Answer.C}" />
+            <Button Text="Dalej"
+                    Command="{Binding NextQuestionCommand}"/>
+            <Label Text="{Binding IsCorrect}"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

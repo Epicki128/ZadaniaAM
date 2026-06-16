@@ -36,8 +36,9 @@
            Grid.RowSpan="2"/>
 
             <GraphicsView x:Name="GraphicsViewGraph"
-                  Grid.Column="1"
-                  Grid.Row="7"/>
+                          Clip="Clip"
+                          Grid.Column="1"
+                          Grid.Row="7"/>
 
         </Grid>
     </ScrollView>
